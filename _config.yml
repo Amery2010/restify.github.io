@@ -33,7 +33,7 @@ defaults:
 #  sectionid: blog
 
 - scope:
-    path: docs
+    path: _docs
     type: docs
   values:
     layout: docs
