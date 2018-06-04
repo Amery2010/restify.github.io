@@ -1,12 +1,12 @@
 # Site settings
 title: Restify
 email: wblankenship@netflix.com
-description: "A Node.js web service framework optimized for building semantically correct RESTful web services ready for production use at scale. restify optimizes for introspection and perfromance, and is used in some of the largest Node.js deployments on Earth."
+description: "一个 Node.js Web 服务框架，为构建语义上正确的 RESTful Web 服务而进行了优化，可以大规模应用于生产环境。Restify 优化了内省和性能，并已经在世界上一些大规模使用 Node.js 的公司中部署使用。"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://restify.github.io # the base hostname & protocol for your site
+url: https://restify.xiangfa.org # the base hostname & protocol for your site
 git_address: https://github.com/restify/node-restify
-git_edit_address: https://github.com/restify/node-restify
+git_edit_address: https://github.com/Amery2010/restify-docs-cn
 
 # Build settings
 markdown: kramdown
@@ -23,7 +23,7 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
-timezone: America/Los_Angeles
+timezone: Asia/Shanghai
 defaults:
 #- scope:
 #  path: _posts
@@ -33,7 +33,7 @@ defaults:
 #  sectionid: blog
 
 - scope:
-    path: _docs/docs
+    path: docs
     type: docs
   values:
     layout: docs

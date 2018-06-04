@@ -1,4 +1,4 @@
-- title: Getting Started
+- title: 快速开始
   docs:
   - home
 
@@ -8,8 +8,9 @@
     - request-api
     - response-api
     - plugins-api
+    - formatters-api
 
-- title: Guides
+- title: 指南
   docs:
     - 6to7
     - 4to5
