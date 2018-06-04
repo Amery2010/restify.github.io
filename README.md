@@ -1,21 +1,21 @@
-# Restify Documentation
+# Restify 文档
 
 
-## Updating the docs
+## 更新文档
 
-To pull in the latest documentation for the project, simply:
+拉去最新的文档，只需要执行：
 
 ```bash
-git clone --recursive git@github.com:restify/restify.github.io
-cd restify.github.io
+git clone --recursive git@github.com:amery2010/restify.xiangfa.org
+cd restify.xiangfa.org
 git submodule update --remote && git add _docs && git commit -m 'bump' && git push origin master
 ```
 
-And the docs will automatically rebuild themselves using [GitHub Pages](https://pages.github.com/)
+文档将自动使用 [GitHub Pages](https://pages.github.com/) 重建。
 
-## Adding doc pages
+## 添加文档页面
 
-To add a doc to the website, include the appropriate header:
+要向网站添加文档，请添加相应的标题：
 
 ```text
 ---
@@ -24,9 +24,9 @@ permalink: /docs/[page-id]/
 ---
 ```
 
-Then add the page to the navbar by adding the `page-id` to the appropriate section in  `_data/docs.yml`:
+然后通过在 `_data/docs.yml` 的相应部分添加 `page-id` 将页面添加到导航栏中：
 
-For example:
+例如：
 
 ```yml
 ...
@@ -37,22 +37,22 @@ For example:
 ...
 ```
 
-## Running locally
+## 本地运行
 
-You need Ruby and gem before starting, then:
+在开始之前你需要安装 Ruby 和 gem，然后：
 
 ```bash
-# install jekyll and bundler
+# 安装 jekyll 和 bundler
 gem install jekyll bundler
 
-# clone the project
-git clone https://github.com/aksakalli/jekyll-doc-theme.git
-cd jekyll-doc-theme
+# 克隆项目
+git clone https://github.com/Amery2010/restify.xiangfa.org.git
+cd restify.xiangfa.org
 
-# run jekyll with dependencies
+# 运行 jekyll 及其依赖
 bundle exec jekyll serve
 ```
 
-## Design
+## 设计
 
-We used the amazing [jekyll-doc-theme by aksakalli](https://aksakalli.github.io/jekyll-doc-theme/) as a jumping off point for our website!
+我们使用惊艳的 [jekyll-doc-theme by aksakalli](https://aksakalli.github.io/jekyll-doc-theme/) 作为我们的网站模板！
